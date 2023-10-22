@@ -516,6 +516,7 @@ section {
 }
 .testimonial-slide img {
   height: 100px;
+  width: 80px;
   border-radius: 50%;
 }
 .testimonial-slider {
