@@ -313,7 +313,7 @@ form.addEventListener("submit", (e) => {
       console.error("Error!", error.message);
     });
 });
-// testimonial
+// testimonial;
 let slideIndex = 0;
 showSlide(slideIndex);
 
