@@ -313,27 +313,3 @@ form.addEventListener("submit", (e) => {
       console.error("Error!", error.message);
     });
 });
-// testimonial;
-let slideIndex = 0;
-showSlide(slideIndex);
-
-function changeSlide(n) {
-  showSlide((slideIndex += n));
-}
-
-function showSlide(n) {
-  let slides = document.getElementsByClassName("testimonial-slide");
-  if (n >= slides.length) {
-    slideIndex = 0;
-  }
-  if (n < 0) {
-    slideIndex = slides.length - 1;
-  }
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slides[slideIndex].style.display = "block";
-}
-setInterval(() => {
-  changeSlide(1);
-}, 5000);
