@@ -493,6 +493,37 @@ section {
   box-shadow: inset 0 0 0 2px #149ddd;
 }
 /*--------------------------------------------------------------
+#  Feature IN
+--------------------------------------------------------------*/
+.feature-in {
+  padding: 1rem 1rem 3rem 1rem;
+}
+.feature-container {
+  max-width: 120rem;
+}
+.feature-heading {
+  font-size: 1.2rem;
+  color: #888;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+  text-align: center;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+}
+.logos img {
+  height: 3.8rem;
+}
+@media (max-width: 767px) {
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials .testimonials-carousel,
