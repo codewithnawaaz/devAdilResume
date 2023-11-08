@@ -515,6 +515,10 @@ section {
 }
 .logos img {
   height: 3.8rem;
+  transition: all 0.3s;
+}
+.logos img:hover {
+  transform: scale(1.1);
 }
 @media (max-width: 767px) {
   .logos {
